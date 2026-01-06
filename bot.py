@@ -7,7 +7,7 @@ from rank_image import criar_imagem_ranking
 from calc import calcular_xp
 
 intents = discord.Intents.default()
-bot = commands.Bot(command_prefix="/", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents)
 
 @bot.event
 async def on_ready():
